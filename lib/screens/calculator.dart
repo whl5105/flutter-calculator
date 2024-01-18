@@ -152,12 +152,9 @@ class CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         // 입력 숫자
         Expanded(
-          flex: 2,
           child: Padding(
             padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
             child: Container(
